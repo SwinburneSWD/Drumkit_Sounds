@@ -1,0 +1,46 @@
+
+.panel
+{
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(3, min-content);
+}
+
+.btn 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    padding: 2rem;
+    background-color: #CCC;
+    box-shadow: -0.25rem 0.25rem 0.5rem #BBB;
+}
+
+.tempo 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    padding: 2rem;
+    background-color: #CCC;
+    box-shadow: -0.25rem 0.25rem 0.5rem #BBB;
+}
+.btnActive
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    padding: 2rem;
+    background-color: #CCC;
+    box-shadow: 0 0 0 #BBB;
+
+}
+.dn {
+    display: none;
+}
